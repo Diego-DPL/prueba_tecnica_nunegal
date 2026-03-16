@@ -1,0 +1,26 @@
+# ── Frontend ──────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ── Backend ───────────────────────────────────────────────
+backend/target/
+backend/.env
+backend/*.log
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
+
+# ── IDEs ──────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
